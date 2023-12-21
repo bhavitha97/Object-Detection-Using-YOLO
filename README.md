@@ -1,4 +1,7 @@
 # Object-Detection-Using-YOLO
-Took eight different one-minute videos and detected the objects in every video using the YOLO algorithm.
-We have written the Python code in MATLAB to detect the objects, and how many times the objects are displayed. 
-In MATLAB, we converted those videos into frames using Python code.
+Captured eight different one-minute random videos.
+● Designed a Python code in MATLAB to detect objects like people, trees, cars, roads, rivers, etc., in each
+video and filtered videos based on object labels using the YOLO algorithm.
+● Read videos from the directory, extracted frames, performed object detection on each frame, and kept
+track of the detected object labels.
+● Printed the list of video URLs where the specified object label is detected.
